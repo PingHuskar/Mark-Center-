@@ -79,16 +79,16 @@ const data = [
     ['อุบลราชธานี', '15.2286861', '104.85642170000006'],
     ['บึงกาฬ', '18.3609104', '103.64644629999998']
 ]
+
 var lat = 14
 var lng = 101
 const z = parseInt(searchParam.get('z')) || 6
-console.log(lat,lng,z)
+// console.log(lat,lng,z)
 var map = L.map('map').setView([lat, lng], z);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '© OpenStreetMap'
-}).addTo(map);
-data.forEach((prov) => {
-    L.marker([prov[1], prov[2]]).bindPopup(`<h1>${prov[0]}</h1>`).addTo(map);
-})
+}).addTo(map)
+
+document.title = `Mark Center by Province`

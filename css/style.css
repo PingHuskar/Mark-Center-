@@ -21,11 +21,10 @@ html, body {
   height: 100vh;
 }
 #map .leaflet-popup-content {
-  min-width: 30vw;
-  min-height: 10vh;
+  font-size: 1.5em;
+  opacity: 0.5;
 }
 #map .leaflet-popup-content:hover {
-  font-size: 1.5em;
-  text-decoration: underline;
+  opacity: 1;
   font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
