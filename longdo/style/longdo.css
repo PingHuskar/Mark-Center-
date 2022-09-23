@@ -1,0 +1,33 @@
+html{
+    height:100%;
+}
+body{
+    margin:0px;
+    height:100%;
+}
+#map {
+    height: 80%;
+}
+.coorInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Ping */
+div {
+    text-align: center;
+}
+#currentMapId {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+/* End Ping */
